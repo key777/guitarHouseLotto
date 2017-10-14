@@ -1,0 +1,25 @@
+{
+  "developerName": "俞恒",
+  "dailyList": [{
+		"profile_image": "http://localhost:80/image/吉他0基础教程.png",
+		"dailyTitle": "吉他0基础教程",
+		"dailyConfig": "第一课，7分钟"},
+	{
+		"profile_image": "http://localhost:80/image/海棠妹妹_喜欢你.png",
+		"dailyTitle": "音乐达人-海棠妹妹",
+		"dailyConfig": "《喜欢你》，8分钟"},
+	{
+		"profile_image": "http://localhost:80/image/云杉玫瑰木单板.png",
+		"dailyTitle": "新品上架",
+		"dailyConfig": "云杉玫瑰木单板系列"
+	}]
+}
+
+主页消息结构体：
+	1.图片路径（主页线束）
+	2.推送消息的主标题（主页显示）
+	3.消息类型，用于子页面的跳转（在主页用于跳转）
+	4.消息的描述（主页显示）
+	//5.消息创建的时间
+	6.服务端消息的唯一ID（作为跳转时传递给子页面的参数）
+	
